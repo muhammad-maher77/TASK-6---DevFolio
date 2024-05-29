@@ -1,0 +1,45 @@
+@media only screen and (max-width: 992px) {
+  body:has(.section-one:target) .but-home-home,
+  body:has(.section-two:target) .but-home-about,
+  body:has(.section-three:target) .but-home-services,
+  body:has(.section-four:target) .but-home-work,
+  body:has(.section-five:target) .but-home-blog,
+  body:has(.section-eight:target) .but-home-contact {
+    width: 0;
+    color: black;
+  }
+  .navbar-nav .nav-link.show {
+    color: black;
+  }
+  .dropdown-menu.show {
+    margin-top: 10px;
+  }
+  .navbar-nav li a {
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: black;
+  }
+  .nav-link:hover::before {
+    width: 0%;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-one h1 {
+    font-size: 3.5rem;
+  }
+  .section-one {
+    background-attachment: scroll;
+  }
+  .section-four {
+    background-attachment: scroll;
+  }
+  .section-six {
+    background-attachment: scroll;
+  }
+  .section-eight {
+    background-attachment: scroll;
+  }
+}

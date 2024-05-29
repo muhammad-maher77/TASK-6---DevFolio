@@ -1,0 +1,850 @@
+:root {
+  --bg-peter-river: #0077ff;
+  --bg-peter-river-bold: #0062d3;
+  --bg-peter-river-light: hsl(212, 75%, 89%);
+  --bg-gray: hsl(0, 0%, 97%);
+  --text-coloe-asbestos: hsl(0, 0%, 31%);
+  --text-coloe-white: hsl(0, 0%, 100%);
+  --text-coloe-black: hsl(0, 0%, 0%);
+}
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+.bg-river-bold {
+  background-color: var(--bg-peter-river-bold);
+}
+.text-asbestos {
+  color: var(--text-coloe-asbestos);
+}
+.fs-medium {
+  font-size: 1.1rem;
+}
+.w-h10 {
+  width: 7.2rem;
+  height: 7.2rem;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(42, 42, 42);
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(241, 241, 241);
+}
+/* ===================| end ronte |========================= */
+.section-one {
+  background-image: url(../images/hero-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.section-one h1 {
+  font-size: 4rem;
+}
+.section-one p::after {
+  content: "|";
+  position: relative;
+  right: 0.625rem;
+  animation: Pipe 0.4s infinite 4.5s alternate;
+  -webkit-animation: Pipe 0.4s infinite 4.5s alternate;
+  opacity: 1;
+}
+@keyframes Pipe {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.section-one .devfolio::before {
+  content: "";
+  animation: devfolio 13s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite
+    alternate-reverse;
+  -webkit-animation: devfolio 13s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    infinite alternate-reverse;
+}
+@keyframes devfolio {
+  1% {
+    content: " ";
+  }
+  2% {
+    content: " D";
+  }
+  3% {
+    content: " De";
+  }
+  4% {
+    content: " Des";
+  }
+  5% {
+    content: " Desi";
+  }
+  6% {
+    content: " Desig";
+  }
+  7% {
+    content: " Design";
+  }
+  8% {
+    content: " Designe";
+  }
+  9% {
+    content: " Designer";
+  }
+  16% {
+    content: " Designer";
+  }
+  17% {
+    content: " Designe";
+  }
+  18% {
+    content: " Design";
+  }
+  19% {
+    content: " Desig";
+  }
+  20% {
+    content: " Desi";
+  }
+  21% {
+    content: " Des";
+  }
+  22% {
+    content: " De";
+  }
+  23% {
+    content: " D";
+  }
+  24% {
+    content: " ";
+  }
+
+  25% {
+    content: " D";
+  }
+  26% {
+    content: " De";
+  }
+  27% {
+    content: " Dev";
+  }
+  28% {
+    content: " Deve";
+  }
+  29% {
+    content: " Devel";
+  }
+  30% {
+    content: " Develo";
+  }
+  31% {
+    content: " Develop";
+  }
+  32% {
+    content: " Develope";
+  }
+  33% {
+    content: " Developer";
+  }
+  40% {
+    content: " Developer";
+  }
+  41% {
+    content: " Develope";
+  }
+  42% {
+    content: " Develop";
+  }
+  43% {
+    content: " Develo";
+  }
+  44% {
+    content: " Devel";
+  }
+  45% {
+    content: " Deve";
+  }
+  42% {
+    content: " Dev";
+  }
+  43% {
+    content: " De";
+  }
+  44% {
+    content: " D";
+  }
+  45% {
+    content: " ";
+  }
+
+  46% {
+    content: " F";
+  }
+  47% {
+    content: " Fr";
+  }
+  48% {
+    content: " Fre";
+  }
+  49% {
+    content: " Free";
+  }
+  50% {
+    content: " Freel";
+  }
+  51% {
+    content: " Freela";
+  }
+  52% {
+    content: " Freelan";
+  }
+  53% {
+    content: " Freelanc";
+  }
+  54% {
+    content: " Freelance";
+  }
+  55% {
+    content: " Freelancer";
+  }
+  61% {
+    content: " Freelancer";
+  }
+  62% {
+    content: " Freelance";
+  }
+  63% {
+    content: " Freelan";
+  }
+  64% {
+    content: " Freela";
+  }
+  65% {
+    content: " Freel";
+  }
+  66% {
+    content: " Free";
+  }
+  67% {
+    content: " Fre";
+  }
+  68% {
+    content: " Fr";
+  }
+  69% {
+    content: " F";
+  }
+  70% {
+    content: " ";
+  }
+
+  71% {
+    content: " P";
+  }
+  72% {
+    content: " Ph";
+  }
+  73% {
+    content: " Pho";
+  }
+  74% {
+    content: " Phot";
+  }
+  75% {
+    content: " Photo";
+  }
+  76% {
+    content: " Photog";
+  }
+  77% {
+    content: " Photogr";
+  }
+  78% {
+    content: " Photogra";
+  }
+  79% {
+    content: " Photograp";
+  }
+  80% {
+    content: " Photograph";
+  }
+  81% {
+    content: " Photographe";
+  }
+  82% {
+    content: " Photographer";
+  }
+  88% {
+    content: " Photographer";
+  }
+  89% {
+    content: " Photographe";
+  }
+  90% {
+    content: " Photograph";
+  }
+  91% {
+    content: " Photograp";
+  }
+  92% {
+    content: " Photogra";
+  }
+  93% {
+    content: " Photogr";
+  }
+  94% {
+    content: " Photog";
+  }
+  95% {
+    content: " Photo";
+  }
+  96% {
+    content: " Phot";
+  }
+  97% {
+    content: " Pho";
+  }
+  98% {
+    content: " Ph";
+  }
+  99% {
+    content: " P";
+  }
+  100% {
+    content: "";
+  }
+}
+/* ===================| navbar|========================= */
+body:has(.section-one:target) .but-home-home,
+body:has(.section-two:target) .but-home-about,
+body:has(.section-three:target) .but-home-services,
+body:has(.section-four:target) .but-home-work,
+body:has(.section-five:target) .but-home-blog,
+body:has(.section-eight:target) .but-home-contact {
+  position: relative;
+  color: var(--text-coloe-white);
+}
+body:has(.section-one:target) .but-home-home::before,
+body:has(.section-two:target) .but-home-about::before,
+body:has(.section-three:target) .but-home-services::before,
+body:has(.section-four:target) .but-home-work::before,
+body:has(.section-five:target) .but-home-blog::before,
+body:has(.section-eight:target) .but-home-contact::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  color: var(--color-text-Headlinest);
+  background-color: var(--text-coloe-white);
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+}
+#navbar {
+  background-color: rgba(0, 0, 0, 0.844);
+}
+
+.nav-item {
+  padding: 5px 10px;
+}
+.nav-link {
+  position: relative;
+  padding: 0 !important;
+}
+
+.nav-link::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  border: none;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--text-coloe-white);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.nav-link:hover::before {
+  width: 80%;
+}
+.navbar-nav .dropdown-menu {
+  margin-top: 20px;
+}
+
+/* ===================| section two |========================= */
+.progress {
+  height: 0.7rem;
+}
+h5[add-line="after"] {
+  position: relative;
+}
+h5[add-line="after"]::after {
+  content: "";
+  background-color: var(--bg-peter-river);
+  width: 6.2rem;
+  height: 0.1875rem;
+  position: absolute;
+  inset: 2.8rem 0rem 0rem 0rem;
+}
+/* ===================| section three |========================= */
+.services {
+  width: 2.5rem;
+  height: 0.3125rem;
+  background-color: var(--bg-peter-river);
+}
+.fbi-1 {
+  font-size: 3rem;
+}
+.fbi-2 {
+  font-size: 2.5rem;
+}
+.fbi-4 {
+  font-size: 1.4rem;
+}
+.fbi-5 {
+  font-size: 3.5rem;
+}
+.fib-7 {
+  font-size: 0.875rem;
+}
+.card-services {
+  border: var(--bg-peter-river) 0.625rem solid;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.hover-card:hover .card-services {
+  border: var(--bg-peter-river-light) 0.625rem solid;
+  background-color: var(--bg-peter-river) !important;
+  fill: var(--text-coloe-white);
+}
+svg[services-icons="icons"] {
+  width: 2.5rem;
+}
+/* =========================| section four |========================= */
+.vh-25 {
+  height: 25vh;
+}
+.vh-50 {
+  height: 50vh;
+}
+.vh-75 {
+  height: 75vh;
+}
+.vh-90 {
+  height: 90vh;
+}
+.px-6 {
+  padding: 0rem 5rem;
+}
+.section-four {
+  background-image: url(../images/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+.completed {
+  width: 5.1rem;
+  height: 5.1rem;
+  border: var(--bg-peter-river-light) 0.625rem solid;
+}
+svg[works-icons="icon"] {
+  fill: var(--text-coloe-white);
+  width: 2rem;
+}
+
+span[span-work="numbers-450"]::after {
+  content: "450";
+  font-size: 2rem;
+  animation-name: numbers-450;
+  animation-duration: 1s;
+  animation-iteration-count: 7;
+}
+@keyframes numbers-450 {
+  0% {
+    content: "0";
+  }
+  10% {
+    content: "20";
+  }
+  20% {
+    content: "50";
+  }
+  30% {
+    content: "70";
+  }
+  40% {
+    content: "100";
+  }
+  50% {
+    content: "150";
+  }
+  60% {
+    content: "180";
+  }
+  70% {
+    content: "200";
+  }
+  80% {
+    content: "210";
+  }
+  90% {
+    content: "235";
+  }
+  100% {
+    content: "240";
+  }
+}
+span[span-work="numbers-25"]::after {
+  content: "25";
+  font-size: 2rem;
+  animation-name: numbers-25;
+  animation-duration: 1s;
+  animation-iteration-count: 7;
+}
+@keyframes numbers-25 {
+  0% {
+    content: "0";
+  }
+  10% {
+    content: "1";
+  }
+  20% {
+    content: "3";
+  }
+  30% {
+    content: "7";
+  }
+  40% {
+    content: "10";
+  }
+  50% {
+    content: "13";
+  }
+  60% {
+    content: "15";
+  }
+  70% {
+    content: "17";
+  }
+  80% {
+    content: "20";
+  }
+  90% {
+    content: "23";
+  }
+  100% {
+    content: "25";
+  }
+}
+span[span-work="numbers-550"]::after {
+  content: "550";
+  font-size: 2rem;
+  animation-name: numbers-550;
+  animation-duration: 1s;
+  animation-iteration-count: 7;
+}
+@keyframes numbers-550 {
+  0% {
+    content: "0";
+  }
+  10% {
+    content: "50";
+  }
+  20% {
+    content: "100";
+  }
+  30% {
+    content: "140";
+  }
+  40% {
+    content: "200";
+  }
+  50% {
+    content: "203";
+  }
+  60% {
+    content: "300";
+  }
+  70% {
+    content: "320";
+  }
+  80% {
+    content: "450";
+  }
+  90% {
+    content: "520";
+  }
+  100% {
+    content: "550";
+  }
+}
+span[span-work="numbers-48"]::after {
+  content: "48";
+  font-size: 2rem;
+  animation-name: numbers-48;
+  animation-duration: 1s;
+  animation-iteration-count: 7;
+}
+@keyframes numbers-48 {
+  0% {
+    content: "0";
+  }
+  10% {
+    content: "1";
+  }
+  20% {
+    content: "4";
+  }
+  30% {
+    content: "10";
+  }
+  40% {
+    content: "15";
+  }
+  50% {
+    content: "30";
+  }
+  60% {
+    content: "35";
+  }
+  70% {
+    content: "38";
+  }
+  80% {
+    content: "40";
+  }
+  90% {
+    content: "45";
+  }
+  100% {
+    content: "48";
+  }
+}
+/* ============================| section five |============================ */
+.work-five {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+.card-five:hover .work-five {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+svg[portfolio-icon="portfolio-icon"] {
+  width: 2.3rem;
+  fill: var(--bg-peter-river);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.card-five:hover svg[portfolio-icon="portfolio-icon"] {
+  transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+  -moz-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  -o-transform: rotate(140deg);
+}
+/* ============================| section six |============================ */
+.section-six {
+  background-image: url(../images/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+button[btu="button"] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* =================================| Seven |============================ */
+.fib-5 {
+  font-size: 0.8rem;
+}
+.fib-6 {
+  font-size: 0.75rem;
+  list-style: none;
+}
+.travel-hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.travel-hover:hover {
+  color: var(--bg-peter-river);
+}
+.travel {
+  padding: 0.4375rem 0.9375rem 0rem 0.9375rem;
+}
+.sapien-ig {
+  height: 3rem;
+}
+.sapien-ig img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+.sapien-ig a span {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.sapien-ig a:hover span {
+  color: var(--bg-peter-river);
+}
+/* =========================| section eight |============================ */
+.section-eight {
+  background-image: url(../images/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+ul {
+  list-style: none;
+}
+textarea {
+  height: 130px;
+  min-height: 9.375rem;
+  max-height: 18.75rem;
+}
+.section-eight button[icons-contact="icon"] {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.section-eight button[icons-contact="icon"]:hover {
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+.icons-contact div {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--bg-peter-river) 0.22rem solid;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.icons-contact div a[icons-contact="icon"] {
+  color: var(--text-coloe-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.icons-contact div:hover {
+  background-color: var(--bg-peter-river);
+  border: var(--bg-peter-river-light) 0.22rem solid;
+}
+.icons-contact div:hover svg[icon-contact="icon-contact"] {
+  fill: var(--text-coloe-white);
+}
+svg[icon-contact="icon-contact"] {
+  width: 1.2rem;
+
+  fill: var(--text-coloe-black);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+svg[ico-icons="section-one-ico"] {
+  fill: var(--bg-peter-river);
+}
+
+/* =========================| section nine |============================ */
+div[but-button="but-top"] {
+  padding: 3px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: var(--bg-peter-river);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+svg[but-button="but-top"] {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffffff;
+}
+/* =========================| section nine |============================ */
+.section-nine {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.125);
+}
+/*!- ======================| Page number [2] |===========================- */
+/* - ======================| details |===========================- */
+.details-li {
+  color: rgba(255, 255, 255, 0.551);
+}
+a[href="www.example.com"] {
+  text-decoration: none;
+  color: var(--text-coloe-black);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+a[href="www.example.com"]:hover {
+  color: var(--bg-peter-river);
+}
